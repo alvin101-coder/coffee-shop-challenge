@@ -5,6 +5,6 @@ class Coffee:
         else:
             raise ValueError("Name must be a sting with at least 3 characters")
 
-
+    @property
     def name(self):
         return self._name        
